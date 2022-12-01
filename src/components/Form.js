@@ -11,7 +11,7 @@ export default function Form() {
                     <h2>Register</h2>
 
                     <form id='form' className='flex flex-col'>
-                        <label>University Email Address</label>
+                        <label>Email Address</label>
                         <input type="email" placeholder='Enter your ousl email' />
                         <label>Your Name</label>
                         <input type="text" placeholder='Enter your name' />
