@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* > * {
+  font-family: 'Inter' , sans-serif;
+  margin: 0;
+}
+
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-1 h2 {
+  font-weight: 800;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 40px;
+  text-align: center;
+}
+
+.register{
+  max-width: 978px;
+  width: 100vw;
+  display:flex;
+  
+}
+
+
+#form{
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#form > input:focus {
+  outline: none;
+}
+
+#form >  input, .btn{
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: .9em 1em;
+}
+
+
+#form > .btn{
+  background-color: #4A72FF;
+  color: #e9ecef;
+  
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#form > label {
+  font-family: 'Inter' ;                                     /*  Naming labels */
+  font-style: normal;
+  font-weight: 400;
+  font-size: '10px';
+  line-height: 10px;
+  align-content: left;
+  vertical-align: top;
+
+  color: #182747;
+  }
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.register .col-1 {
+  margin: auto;
+  padding: 3em 0;
+}
+
+.register .col-2 img{                                             /* LMS image styling */
+  width: 510px;
+  height: 550px;
+  object-fit:fill;
+  align-self:flex-end;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display:none;
+  margin-top: 70px;
+}
+
+@media screen {
+  .register .col-2 img{
+    display:initial;
+  }
+}
+
+.blue-bak {
+  background-color: #4A72FF;                  /*The blue border around the img*/
+  width: 670px;
+  padding-right: 20px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  
+}
+
+.col-1{
+  background:#E7EAED;
+  border-radius: 50px 0px 0px 50px;
+  width: 890px;
+  height: 590px;
+  align-self: flex-end;
+  display: flex;
+}
+
+
+.reg-box {
+  background-color: #EAF5FE;               /*register form box */
+  width: 420px;
+  height: 498px;
+  margin: 30px;
+  /*margin-left: 50px;*/
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  
+}
+
+
+.whitebox {
+  border-color: #FFFFFF;
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 510px;
+  height: 550px;
+  margin-top: 21px;
+  margin-left: 20px;
+}
